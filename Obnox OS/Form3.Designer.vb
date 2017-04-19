@@ -86,6 +86,7 @@ Partial Class Form3
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Form3"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "New Hardware Found"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

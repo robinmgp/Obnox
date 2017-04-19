@@ -78,6 +78,42 @@
     <Compile Include="Active Web Browser.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="GREAT OFFER 2.Designer.vb">
+      <DependentUpon>GREAT OFFER 2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GREAT OFFER 2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="illegal.Designer.vb">
+      <DependentUpon>illegal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="illegal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invisibleagent.Designer.vb">
+      <DependentUpon>Invisibleagent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Invisibleagent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lastpopup.Designer.vb">
+      <DependentUpon>lastpopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lastpopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="powerformat.Designer.vb">
+      <DependentUpon>powerformat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="powerformat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Emailclient.Designer.vb">
+      <DependentUpon>Emailclient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Emailclient.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -136,10 +172,40 @@
     <Compile Include="Obnox video.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="reformat.Designer.vb">
+      <DependentUpon>reformat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reformat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Youwill.Designer.vb">
+      <DependentUpon>Youwill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Youwill.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Active Web Browser.resx">
       <DependentUpon>Active Web Browser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GREAT OFFER 2.resx">
+      <DependentUpon>GREAT OFFER 2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="illegal.resx">
+      <DependentUpon>illegal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invisibleagent.resx">
+      <DependentUpon>Invisibleagent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lastpopup.resx">
+      <DependentUpon>lastpopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="powerformat.resx">
+      <DependentUpon>powerformat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emailclient.resx">
+      <DependentUpon>Emailclient.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
@@ -164,6 +230,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Obnox video.resx">
       <DependentUpon>Obnox video.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reformat.resx">
+      <DependentUpon>reformat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Youwill.resx">
+      <DependentUpon>Youwill.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -221,6 +293,57 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bg color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ABCD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZOOM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\powerformatsoundemail.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconclick.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\illegal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\illegalwarning.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uhoh.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\off.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\let%27s place the next icon.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nextwarning.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nearlylast.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAKENOW.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
